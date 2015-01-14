@@ -1,0 +1,33 @@
+body 	{
+			font-family: Arial;
+			color: #555555;
+}
+h1		{
+			color: black;
+}
+h2		{
+			color: black;
+			font-size: 18px;
+}
+footer	{
+			font-size: 12px;
+}
+th	{
+			height: 40px;
+			font-size: 14px;
+			text-align: left;
+}
+tr :first-child	{
+/*  width of 100px is not enough  */
+			width: 150px;
+			font-weight: bold;
+}
+tr:hover	{
+			color: #FEFFDB;
+			cursor: pointer;
+}
+#room		{
+			margin-top: 40px;
+			
+
+}
