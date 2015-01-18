@@ -1,91 +1,116 @@
-body 	{
-			font-family: Arial;
-			color: #555555;
-			margin: 30px 30px 0px 30px;
+body {
+    font-family: Arial;
+    color: #555555;
+    margin: 30px 30px 0px 30px;
 }
-h1		{
-			color: black;
+h1 {
+    color: black;
 }
-h2		{
-			color: black;
-			font-size: 18px;
+h2 {
+    color: black;
+    font-size: 18px;
 }
-footer	{
-			font-size: 12px;
+footer {
+    font-size: 12px;
 }
-th	{
-			height: 40px;
-			font-size: 14px;
-			text-align: left;
+th {
+    height: 40px;
+    font-size: 14px;
+    text-align: left;
 }
-tr td:first-child	{
-
-			width: 250px;
-			font-weight: bold;
+tr td:first-child {
+    width: 250px;
+    font-weight: bold;
 }
-tr:hover	{
-			color: #FEFFDB;
-			cursor: pointer;
+tr:hover {
+    color: #FEFFDB;
+    cursor: pointer;
 }
-#room		{
-			margin-top: 40px;
+#room {
+    margin-top: 40px;
 }
-.top  		{
-			border: solid;
-			border-radius: 6px;
-			height: 80px;
-			background-color: #dddddd;
-			color: white;
-			padding-top: 22px;
-			text-indent: 10px;
-			font-size: 16px;
+.cook {
+    float: left;
+    margin-top: 20px;
 }
-.cook 	{
-	float: left;
-	margin-top: 20px;
-
+.cook h1 {
+    float: left;
+    margin-top: 5px;
 }
-.cook h1	{
-	float: left;
-	margin-top: 5px;
+.homeim {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 30px;
 }
-
-img {
-	width: 100px;
-	height: 100px;
-	float: left;
-	margin-right: 10px;
-	margin-bottom: 30px;
+.navim {
+    width: 300px;
+    height: 80px;
 }
 .rt {
-	float: right;
-	margin-top: 20px;	
+    float: right;
+    margin-top: 30px;
 }
 .rt input {
-	background-color: #8abd2b;
-	
+    background-color: #8abd2b;
+}
+.but input {
+    background: hsla(100, 100%, 40%, .4);
+    height: 35px
 }
 .clear {
-	clear: both;
+    clear: both;
 }
-.fun	{
-	
-	background-color: #dddddd;
-	height: 2px;
-	margin-bottom: 5px;
-	border-radius: 6px;
-
+.fun {
+    background-color: #dddddd;
+    height: 2px;
+    margin-bottom: 5px;
+    border-radius: 6px;
 }
-
-.box 	{
-	width: 28%;
-	height: 100px;
-	background-color: #feffdb;
-	border-radius: 6px;
-	border: solid 1px;
-	margin-bottom: 40px;
-	padding-left: 10px;
+.box {
+    width: 28%;
+    height: 100px;
+    background-color: #feffdb;
+    border-radius: 6px;
+    border: solid 1px;
+    margin-bottom: 40px;
+    padding-left: 10px;
 }
 .box p:first-child {
-	font-weight: bold;
+    font-weight: bold;
+}
+/*Submit Form*/
+
+.fms {
+    background: hsla(35, 10%, 20%, .08);
+    border: solid hsla(35, 10%, 20%, .12) 1px;
+    border-radius: 6px;
+    height: 440px;
+    width: 230px;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+/*Navigation Bar*/
+
+.nav {
+    border-radius: 6px;
+    height: 80px;
+    background-color: #dddddd;
+    text-indent: 15px;
+    font-size: 16px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.nav li:first-child {
+    margin-right: auto;
 }
