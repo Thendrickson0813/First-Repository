@@ -13,7 +13,7 @@
 <body>
     <nav class="container-fluid navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Bootstrap Assignment</a>
+            <a class="myHeader navbar-brand" href="#">Bootstrap Assignment</a>
             <p class="navbar-text navbar-left"><a href="" class="navbar-link">About</a>
                 <p class="navbar-text navbar-left"><a href="" class="navbar-link">Services</a>
                     <p class="navbar-text navbar-left"><a href="" class="navbar-link">Contract</a>
@@ -45,8 +45,8 @@
                     col-md-4 col-md-offset-1
                     col-lg-5">
 
-                <h1>This First Heading Will Catch Your Eye</h1>
-                <p>My first heading is not so great. Later in this course i will learn to use bootstrap at a much better level. im just going to throw some nonesense in here for more content. CHECK OUT My first webpage is below!
+                <h1 id="myBtn">This First Heading Will Catch Your Eye</h1>
+                <p id="bChange">My first heading is not so great. Later in this course i will learn to use bootstrap at a much better level. im just going to throw some nonesense in here for more content. CHECK OUT My first webpage is below!
                 </p>
                 <p><a href="submit.html">Submit a Recipe</a>
                 </p>
@@ -119,15 +119,26 @@
 
     
     </footer>
-<script type="text/javascript">
-    
-        var timmy= document.getElementById("");
-        timmy.addEventListener("click", myFunction);
+<script type="text/javascript"></script>
+    <script>
+        var name = ("Timmy");
+        console.log (name);
+        alert("Hello " + name + ".");
 
-        function myFunction() {
-            alert("Hello Timmy");
+        document.getElementById("bChange");
+        bChange.style.background='lightblue';
+
+        document.getElementById("myBtn").addEventListener("click", message);
+
+       
+        function message() {
+            alert("This Heading is really not that good")
         }
-        document.getElementByClassName("tim")
+
+
+
+        
+       
     </script>
 </body>
 
