@@ -43,18 +43,39 @@ tr:hover {
     margin-right: 10px;
     margin-bottom: 30px;
 }
-.navim {
-    /*Navigation bar Image*/
-    
-    width: 230px;
-    height: 80px;
-}
 .rt {
-    float: right;
     margin-top: 30px;
+    width: 100%;
 }
-.rt input {
-    background-color: #8abd2b;
+.recipebut a {
+    text-decoration: none;
+}
+.recipebutton a {
+    text-decoration: none;
+}
+.recipebut {
+    float: right;
+    background: #c8f279;
+    border: 1px solid #8abd2b;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 1%;
+    width: 6%;
+    text-align: center;
+}
+.rcb {
+    width: 50%;
+}
+.recipebutton {
+    background: #c8f279;
+    border: 1px solid #8abd2b;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 1%;
+    text-align: center;
+    width: 60%;
 }
 .but input {
     background: hsla(100, 100%, 40%, .4);
@@ -94,24 +115,31 @@ tr:hover {
     font-size: 13px;
     margin-bottom: 40px;
 }
-/*Navigation Bar*/
-
 .nav {
     border-radius: 2px;
     background-color: #dddddd;
-    text-indent: 15px;
     font-size: 16px;
-    list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
 }
-.nav li:first-child {
+.nav p:first-child {
     margin-right: auto;
+}
+.nav p {
+    margin: 1%;
+}
+.navim {
+    /*Navigation bar Image*/
+    
+    margin-top: 5px;
+    width: 230px;
+    height: 80px;
+}
+.nav a {
+    text-decoration: none;
 }
 /***********************************************************************
             Media-Queries!!!!!!!!!!!!!!!!!!!!!!!!!*/
@@ -122,71 +150,46 @@ tr:hover {
         padding-bottom: 10px;
         padding-top: 10px;
         margin: 0;
-        text-indent: 0;
-        margin-left: -15px;
-        flex-align: center;
     }
-}
-@media screen and (max-width: 480px) {
     .navim {
         width: 180px;
         height: 60px;
     }
-}
-@media screen and (max-width: 480px) {
-    .nav li:first-child {
+    .nav p:first-child {
         margin: auto;
-        align: center;
     }
-}
-@media screen and (max-width: 480px) {
     h1 {
         text-align: center;
     }
-}
-@media screen and (max-width: 480px) {
     h2 {
         text-align: center;
     }
-}
-@media screen and (max-width: 480px) {
     h3 {
         text-align: center;
     }
-}
-@media screen and (max-width: 480px) {
     p {
         text-align: center;
     }
-}
-@media screen and (max-width: 480px) {
     .box {
         width: 80%;
         text-align: center;
         margin-bottom: 50px;
     }
-}
-@media screen and (max-width: 480px) {
-    .rt {
+    .recipebut {
         display: none;
         float: none;
     }
-}
-@media screen and (max-width: 480px) {
     .cook {
         float: none;
     }
-}
-@media screen and (max-width: 480px) {
     .homeim {
         float: none;
         display: block;
         width: 80%;
+        height: 150px;
         margin-left: auto;
         margin-right: auto;
     }
-}
-@media screen and (max-width: 480px) {
     .cook h1 {
         float: none;
     }
