@@ -1,12 +1,14 @@
+
 nav div {
     background-color: black;
+    color: white;
 }
 body {
     margin-top: 70px;
 }
 .circle {
-    height: 500px;
-    width: 500px;
+    height: 250px;
+    width: 250px;
     border: thin solid black;
     border-radius: 50%;
     background-color: hsla(193, 0%, 67%, 1.0);
@@ -25,12 +27,24 @@ body {
 .bg {
     font-size: 100px;
     text-align: center;
+    
 }
 .smt {
     font-size: 50px;
     margin-top: 20px;
     text-align: center;
 }
+/*---------Footer-------------------------*/
+#footer{
+    position:fixed;
+    height:50px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+}
+
+
 /*---------------------------------------*/
 /*   MY LINE   */
 
