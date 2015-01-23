@@ -1,0 +1,13 @@
+.button {
+    background: #c8f279;
+    border: 1px solid #8abd2b;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 1%;
+    text-align: center;
+    width: 60%;
+}
+ul li {
+    text-decoration: none;
+}
