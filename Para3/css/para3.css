@@ -1,0 +1,218 @@
+/* general styles */
+body    {
+    font-size: 12px;
+}
+.myPadding  {
+    padding: 60px 0;
+}
+.myMarg    {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.myImg {
+    margin-bottom: 30px;
+}
+.myTextP {
+    font-size: 12;
+}
+.myHead {
+    color: white;
+    padding-top: 250px;
+    padding-left: 100px;
+}
+
+.contact{
+    padding: 30px;
+}
+/* Navbar sectio*/
+.navbar-toggle .icon-bar   {
+    background-color: white;
+}
+.myNav a {
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    display: inline-block;
+    
+}
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+    background-color: black;
+}
+
+/*Progress bar */
+.progress-bar {
+    border-right: solid 6px;
+}
+.progress {
+    border: 8px solid white;
+    border-radius: 6px;
+    
+}
+.progress-bar-custom {
+    background: rgba(0, 0, 0, 1);
+}
+.progress-bar-custom1 {
+    background: rgba(158, 158, 158, 1);
+}
+.myImg  {
+    width: 300px;
+}
+/* padded section */
+
+/* vertical-centered text */
+
+.text-vcenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.text-vcenter h1 {
+    font-size: 4.5em;
+    font-weight: 7;
+    margin: 0;
+    padding: 0;
+}
+/* additional sections */
+#intro {
+    background: url("../img/colorBackground.jpg") 50% 0 no-repeat fixed;
+    height: 800px; 
+    margin: 0px auto;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    background-size: cover;
+    
+}
+#home {
+    background: url("http://antaryami.net/darpanam/wp-content/uploads/2013/11/background-site.jpg") 5% 0 no-repeat fixed;
+    height: 50%; 
+    margin: 0px auto;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    background-size: cover;
+    
+}
+#about {
+    background: url("../img/smallBack.jpg") no-repeat fixed;
+    height: 50%; 
+    margin: 0px auto;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    background-size: cover;
+
+}
+#blank  {
+    background: url("http://i.ytimg.com/vi/eq7Adzo4QAE/maxresdefault.jpg") 5% 0 no-repeat fixed;
+    height: 50%; 
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+#information .panel {
+    opacity: 0.05;
+}
+#information2 .panel {
+    opacity: 0.85;
+}
+.myMargin3    {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+/* -----------MY STATUS BUTTON _______________*/
+
+.myButton {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3f3f40), color-stop(1, #5b7494));
+    background: -moz-linear-gradient(top, #3f3f40 5%, #5b7494 100%);
+    background: -webkit-linear-gradient(top, #3f3f40 5%, #5b7494 100%);
+    background: -o-linear-gradient(top, #3f3f40 5%, #5b7494 100%);
+    background: -ms-linear-gradient(top, #3f3f40 5%, #5b7494 100%);
+    background: linear-gradient(to bottom, #3f3f40 5%, #5b7494 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#3f3f40', endColorstr='#5b7494', GradientType=0);
+    background-color: #3f3f40;
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+    border: 1px solid #1c294d;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 12px;
+    padding: 4px 20px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #000000;
+}
+.myButton:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5b7494), color-stop(1, #3f3f40));
+    background: -moz-linear-gradient(top, #5b7494 5%, #3f3f40 100%);
+    background: -webkit-linear-gradient(top, #5b7494 5%, #3f3f40 100%);
+    background: -o-linear-gradient(top, #5b7494 5%, #3f3f40 100%);
+    background: -ms-linear-gradient(top, #5b7494 5%, #3f3f40 100%);
+    background: linear-gradient(to bottom, #5b7494 5%, #3f3f40 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#5b7494', endColorstr='#3f3f40', GradientType=0);
+    background-color: #5b7494;
+}
+/* Form */
+.myContact {
+    background-color: hsla(213, 21%, 28%, .5);
+    color: white;
+    border-radius: 4px;
+}
+.myAdd{
+    background-color: hsla(213, 21%, 28%, .5);
+}
+#contact label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+#contact_submit {
+    padding-left: 100px;
+}
+#contact div {
+    margin-top: 1em;
+}
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+.error {
+    display: none;
+    margin-left: 10px;
+}
+.error_show {
+    color: red;
+    margin-left: 10px;
+}
+input.invalid, textarea.invalid {
+    border: 2px solid red;
+}
+input.valid, textarea.valid {
+    border: 2px solid green;
+}
+/* bottom navigator */
+.myWhite {
+    color: white;
+}
+.bootomNav {
+    margin-top: -10px;
+
+}
+/* bottom navigator */
+.myWhite {
+    color: white;
+}
+.bootomNav {
+    margin-top: -4px;
+}
