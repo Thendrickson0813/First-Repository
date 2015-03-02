@@ -1,19 +1,23 @@
 /* general styles */
 body    {
-    font-size: 12px;
+    font-size: 14px;
+}
+.pad-sectionTop    {
+    padding: 10px 0 20px 0;
 }
 .myPadding  {
     padding: 60px 0;
 }
 .myMarg    {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.myMargAbout   {
+    margin-top: 100px;
+    margin-bottom: 10px;
 }
 .myImg {
     margin-bottom: 30px;
-}
-.myTextP {
-    font-size: 12;
 }
 .myHead {
     color: white;
@@ -59,7 +63,7 @@ body    {
     background: rgba(158, 158, 158, 1);
 }
 .myImg  {
-    width: 300px;
+    width: 400px;
 }
 /* padded section */
 
@@ -72,7 +76,7 @@ body    {
 }
 .text-vcenter h1 {
     font-size: 4.5em;
-    font-weight: 7;
+    font-weight: bold;
     margin: 0;
     padding: 0;
 }
@@ -99,12 +103,20 @@ body    {
 }
 #about {
     background: url("../img/smallBack.jpg") no-repeat fixed;
-    height: 50%; 
+    height: 010%; 
     margin: 0px auto;
     width: 100%;
     position: relative;
-    box-shadow: 0 0 50px rgba(0,0,0,0.8);
-    background-size: cover;
+    background-size: 1925px;
+
+}
+#bottomProfilePicture {
+    background: url("../img/smallBack.jpg") no-repeat fixed;
+    height: 010%; 
+    margin: 0px auto;
+    width: 100%;
+    position: relative;
+    background-size: 1925px;
 
 }
 #blank  {
@@ -114,12 +126,12 @@ body    {
     width: 100%;
     position: relative;
     background-size: cover;
+    margin-bottom: 10px;
 }
-#information .panel {
-    opacity: 0.05;
-}
-#information2 .panel {
-    opacity: 0.85;
+#information2 {
+    opacity: 0.80;
+    margin: 6em 0;
+
 }
 .myMargin3    {
     margin-top: 3em;
@@ -172,6 +184,7 @@ body    {
     display: inline-block;
     width: 100px;
     text-align: right;
+
 }
 #contact_submit {
     padding-left: 100px;
@@ -215,4 +228,77 @@ input.valid, textarea.valid {
 }
 .bootomNav {
     margin-top: -4px;
+}
+/* */
+@media (min-width: 150px) and (max-width: 360px) {
+  #bottomProfilePicture {
+    background: url("../img/smallBack.jpg") no-repeat fixed;
+    height: 5%; 
+    margin: 0px auto;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    background-size: 1850px;
+
+  }
+}
+@media (min-width: 150px) and (max-width: 360px) {
+  #about {
+    background-size: 1850px;
+  }
+}
+/* 360x640 */
+@media (min-width: 360px) and (max-width: 640px) {
+  #bottomProfilePicture {
+    background: url("../img/smallBack.jpg") no-repeat fixed;
+    height: 5%; 
+    margin: 0px auto;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    background-size: 1850px;
+
+  }
+}
+@media (min-width: 360px) and (max-width: 640px) {
+  #about {
+    background-size: 1850px;
+  }
+}
+
+/* 640x1200 */
+@media (min-width: 640px) and (max-width: 1200px) {
+  #bottomProfilePicture {
+    background: url("../img/smallBack.jpg") no-repeat fixed;
+    height: 5%; 
+    margin: 0px auto;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    background-size: 1800px;
+
+  }
+}
+@media (min-width: 640px) and (max-width: 1200px) {
+  #about {
+    background-size: 1800px;
+  }
+}
+/* 1200x 1600 */
+@media (min-width: 1200px) and (max-width: 1600px) {
+  #bottomProfilePicture {
+    background: url("../img/smallBack.jpg") no-repeat fixed;
+    height: 5%; 
+    margin: 0px auto;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    background-size: 1700px;
+
+  }
+}
+@media (min-width: 1200px) and (max-width: 1600px) {
+  #about {
+    background-size: 1700px;
+  }
 }
